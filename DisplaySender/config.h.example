@@ -1,0 +1,9 @@
+#pragma once
+#define BLE_DEVICE_NAME "DisplayConnect-LOLIN32"
+#define NUS_SERVICE_UUID "6E400001-B5A3-F393-E0A9-E50E24DCCA9E"
+#define NUS_RX_UUID "6E400002-B5A3-F393-E0A9-E50E24DCCA9E"
+#define NUS_TX_UUID "6E400003-B5A3-F393-E0A9-E50E24DCCA9E"
+#define BLE_MTU 256
+// Display setup: ../hardware/User_Setup.h, copied into TFT_eSPI/User_Setup.h.
+// Requires TFT_eSPI 2.5.43, NimBLE-Arduino 2.5.0 and ArduinoJson 7.4.2.
+// CYD touch is disabled; its GPIO25 and VSPI bus conflict with this display.
