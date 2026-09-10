@@ -1,17 +1,9 @@
 # DisplayConnect — LOLIN32 Lite + ST7796S
 
-Adaptação do [DisplayConnect, de Antonio Malaquias](https://github.com/malaq88/DisplayConnect), para **LOLIN32 Lite e TFT SPI ST7796S de 3,5 polegadas**, em paisagem, com resolução de **480 × 320**.
+Adaptação do [DisplayConnect, de malaq88](https://github.com/malaq88/DisplayConnect), para **LOLIN32 Lite e TFT SPI ST7796S de 3,5 polegadas**, em paisagem, com resolução de **480 × 320**.
 
 O Android calcula a navegação e envia geometria por Bluetooth Low Energy. O ESP32 desenha o mapa vetorial, a posição e as instruções. A arquitetura e a licença MIT do projeto original foram preservadas.
 
-## Estado da versão
-
-**1.0.4 é a versão local desta adaptação**, não uma versão oficial do projeto original. A base foi uma cópia de `master` obtida em 08/09/2026, sem identificação de commit registrada.
-
-- A versão local 1.0.3 foi compilada e teve funcionamento confirmado pelo usuário.
-- Na 1.0.4, passaram 37 testes Kotlin/JUnit e uma conferência de compilação de todos os fontes Kotlin/Compose. Os recursos de idioma e uma prévia da fonte acentuada foram conferidos.
-- A compilação completa Android/ESP32 da 1.0.4 ainda está pendente. O ambiente usado negou acesso ao SDK e ao Arduino CLI. Não há APK ou firmware 1.0.4 publicado neste repositório.
-- Os recursos novos ainda precisam de testes físicos de BLE, acentos, navegação offline e GPS. Não há medição formal de desempenho.
 
 ## Alterações principais
 
